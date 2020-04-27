@@ -16,10 +16,7 @@ const fibonacci = () => {
     return result;
 };
 
-const isFibonnaci = (num) => {
-    const hasNumber = fibonacci();
-    return hasNumber.includes(num);
-}
+const isFibonnaci = (num) => fibonacci().includes(num);
 
 module.exports = {
     fibonacci,
